@@ -1,0 +1,50 @@
+.container{
+    
+    background-color: rgb(255, 255, 255);
+    align-content: center;
+    height: 60vh;
+    width: 97%;
+    border-radius: 1rem;
+    font-family: 'Catamaran';
+    
+
+}
+
+.new{
+background-color:rgba(247, 62, 62, 0.822); 
+border-radius: 0.4rem;
+color: white;
+
+}
+
+.solved{
+    background-color:rgba(143, 38, 241, 0.822); 
+    border-radius: 0.4rem;
+    color: white;
+}
+
+ h1{
+    margin: 0;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    
+}
+
+i{
+    font-size:3rem;
+    color: rgb(250, 28, 28);
+    float: right;
+   
+}
+
+ul{
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 2rem;
+}
+.from{
+    font-size: 1rem;
+    
+}

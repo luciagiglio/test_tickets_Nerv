@@ -1,0 +1,22 @@
+<div class="container">
+  <h1>Tickets</h1>
+
+  <ul class="collection">
+    <li class="collection-item" *ngFor="let item of ticket">
+      <div *ngIf="item.status == 'SOLVED'">
+        <b class="solved">&nbsp;{{ item.status }}&nbsp; </b> &nbsp;&nbsp;<b class="body">{{ item.body }}&nbsp;</b>
+        <i class="material-icons">keyboard_arrow_right</i>
+            <p>{{item.date}}</p>
+        
+      </div>
+
+      <div *ngIf="item.status == 'NEW'">
+        <p class="from">From: {{item.from}}&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Send: {{item.date}}</p>
+        <b class="new">&nbsp;{{ item.status }}&nbsp;</b>&nbsp;&nbsp;<b class="body">{{ item.body }}&nbsp;</b>
+        <i class="material-icons">keyboard_arrow_right</i>
+        <p class="subject">{{item.subject}}</p>
+        
+      </div>
+    </li>
+  </ul>
+</div>

@@ -1,0 +1,20 @@
+
+.btn{
+  
+  background-color: rgb(226, 230, 231);
+  box-shadow: none;
+  text-transform:initial;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: rgb(48, 48, 48);
+  font-family: 'Catamaran';
+  
+
+}
+
+.btn .material-icons{
+  font-size: 2rem;
+  color: rgb(250, 28, 28);
+}
+    
+
